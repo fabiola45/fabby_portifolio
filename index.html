@@ -1,54 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fabby portifolio project</title>
+    <title>Personal Portfolio</title>
+   
 </head>
-
 <body>
-    <div id="logo">
 
-    </div>
-    <nav>
-        <a href="#">HOME</a>
-        <a href="">ABOUT</a>
-        <a href="">SERVICES</a>
-        <a href="">PORTIFOLIO</a>
-        <a href="">PRICING</a>
-        <a href="">SHOP</a>
-        <a href="">BLOG</a>
-        <a href="">CONTACT</a>
-    </nav>
-    <div id="cart">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
-            viewBox="0 0 16 16">
-            <path
-                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-        </svg>
-        <div>
-            <p>0</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="" alt="Logo">
         </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg></a></li>
+              <li><button class="btn">Buy Now</button></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm William Lina</h1>
+            <p class="subtitle">Eye Surgeon Specialist</p>
+            <p>Explore the professional journey, expertise, and achievements of a dedicated medical practitioner. Discover education, experience, clinical skills, and research.</p>
+            <div class="button-container">
+                <button class="btn">Make an appointment</button>
+                
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="./assets/images/jungkook.jpeg" alt="Profile Image">
+        </div>
+    </section>
+<section>
+    <div><p>Special Facilities</p>
+        <h1>Special Facilities For Our Patients</h1></div>
+        <div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
+                    <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.6.6 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.6.6 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.6.6 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535z"/>
+                    <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.6.6 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0z"/>
+                  </svg>
+                <h3>Rehabilitation Retreat</h3>
+                <p>A serene haven dedicated to physical 
+                    and emotional recovery, providing 
+                    specialized therapies.</p>   
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield" viewBox="0 0 16 16">
+                    <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+                  </svg>
+                <h3>Adventure Basecamp</h3>
+                <p>An adventure facility providing 
+                    equipment, training, and 
+                    guided experiences.</p>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+                  </svg>
+                <h3>Child Development</h3>
+                <p>A nurturing environment for children's growth 
+                    and learning, equipped with a range 
+                    of developmental programs.</p>
+            </div>
+        </div>
+</section>
+<section>
+    <div>
+        <img src="./assets/images/jungkook.jpeg" alt="Profile Image">
+
     </div>
     <div>
-        <button>BUY NOW</button>
-    </div>
-    <div id="container">
-        <div>
-            <p>consultant eye sergeon</p>
-            <h1>Hi, I’m William Lina</h1>
-            <h2>a Eye Sergeon SpecialistEye Consultant</h2>
-            <p>Explore the professional journey, expertise, and achievements
-                of a dedicated medical practitioner. Discover education,
-                experience, clinical skills, research, and patient care .</p>
-                <button>Make an appointment</button>
-        </div>
-        <div>
-            <img src="./assets/images/jungkook.jpeg" alt="">
-        </div>
-    </div>
-     
-</body>
+        <h6>About Me</h6>
+        
+<h1>Dr. Laura Jerry</h1>
+<p>Dr. Laura Jerry brings a wealth of experience and expertise 
+    to her practice. With a focus on patient-centered care,
+     she is known for her warm and empathetic approach, always
+      taking the time to listen to her patients’ concerns. Her extensive 
+      medical knowledge and dedication to staying at the forefront 
+      of the field make her a trusted healthcare partner.</p>
 
+<p>Explore the range of medical services Dr. Collins offers,
+    including general check-ups, preventative care, chronic disease 
+    management, and more. She is committed to working with you to
+     develop personalized treatment plans that suit your unique needs.</p>
+
+     <button>Learn More</button>
+    </div>
+</section>
+</body>
 </html>
